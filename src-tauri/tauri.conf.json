@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "ChaqPlay",
+  "version": "1.0.0",
+  "identifier": "com.filter27.chaqplay",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "ChaqPlay",
+        "width": 1000,
+        "height": 680,
+        "minWidth": 780,
+        "minHeight": 560,
+        "center": true,
+        "resizable": true,
+        "fullscreen": false,
+        "transparent": true,
+        "backgroundColor": "#00000000"
+      },
+      {
+        "label": "spectrum",
+        "title": "ChaqPlay Spectrum",
+        "url": "index.html?spectrum",
+        "width": 560,
+        "height": 92,
+        "minWidth": 220,
+        "minHeight": 36,
+        "resizable": true,
+        "decorations": false,
+        "transparent": true,
+        "backgroundColor": "#00000000",
+        "shadow": false,
+        "visible": false,
+        "focus": false,
+        "skipTaskbar": true,
+        "alwaysOnTop": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' data: asset: https://i.ytimg.com https://*.ytimg.com; media-src 'self' https://*.googlevideo.com; connect-src 'self' ipc: http://ipc.localhost https://*.googlevideo.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:",
+      "assetProtocol": { "enable": false }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "msi"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "webviewInstallMode": {
+        "type": "downloadBootstrapper",
+        "silent": true
+      },
+      "nsis": {
+        "installMode": "currentUser"
+      }
+    }
+  }
+}

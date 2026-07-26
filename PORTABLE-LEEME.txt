@@ -1,0 +1,35 @@
+CHAQPLAY PORTABLE
+================
+
+1. Descomprime ChaqPlay-Portable.zip en cualquier carpeta.
+2. Abre ChaqPlay.exe.
+
+No necesita instalación.
+El motor de YouTube está integrado. No necesitas instalar ni conservar
+programas adicionales junto a ChaqPlay.exe.
+
+Los favoritos y el historial se guardan únicamente en tu equipo.
+La canción comienza por transmisión progresiva y continúa cargándose mientras
+se reproduce; no espera a que se descargue el audio completo.
+
+ESPECTRO TRANSPARENTE
+Reproduce una canción y pulsa el icono de barras junto al volumen.
+- La música continúa sonando al entrar y salir de este modo.
+- Arrastra para moverlo.
+- Redimensiona desde cualquier borde o esquina.
+- No muestra botones ni paneles al pasar el cursor.
+- Recuerda automáticamente su posición y tamaño.
+
+BANDEJA DE WINDOWS
+El reproductor y el espectro pueden mostrarse al mismo tiempo.
+Desde el icono junto al reloj puedes:
+- Mostrar u ocultar el espectro.
+- Activar "Ocultar ChaqPlay al minimizar".
+- Abrir "Opciones del espectro" para fijarlo y escoger Líneas, Onda o Pulso.
+- Cambiar toda la aplicación entre español e inglés.
+- Abrir el repositorio de ChaqPlay o apoyar el proyecto.
+Usa "Salir" en ese menú para cerrar completamente el programa.
+Haz clic izquierdo en el icono para volver a mostrar ChaqPlay.
+
+Si Windows muestra una advertencia de SmartScreen, se debe a que esta versión
+privada todavía no posee una firma digital comercial.
