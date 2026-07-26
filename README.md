@@ -2,6 +2,8 @@
 
 Reproductor de música minimalista para Windows. Busca canciones en YouTube mediante `yt-dlp` y transmite únicamente el audio dentro de una interfaz liviana construida con Tauri 2 y React.
 
+<img src="./Demo.gif" alt="ChaqPlay demo" />
+
 ## Uso de la versión portable
 
 El usuario final no instala herramientas ni ejecuta comandos:
